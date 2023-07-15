@@ -1,5 +1,4 @@
 import Ship from "./ship";
-import { arrIncludesObj } from "./auxiliaryFucntions";
 
 export const Board_Width  = 10;
 export const Board_Height = 10;
@@ -68,6 +67,12 @@ export default class GameBoard {
 
         this.missedShots.push(coordinates);
         return true;
+    }
+
+    arrIncludesObj(coordsArray, searchCoordinates) {
+        return coordsArray.some(
+            (coord) => coord.x === searchCoordinates.x && coord.y === searchCoordinates.y
+        );
     }
 
     allShipsDestroyed() {
