@@ -1,0 +1,31 @@
+{
+  "name": "battleship-game",
+  "version": "1.0.0",
+  "description": "Build the Battleship game using the TDD method",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manLikeTheo/Battleship-Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manLikeTheo/Battleship-Game/issues"
+  },
+  "homepage": "https://github.com/manLikeTheo/Battleship-Game#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-jest": "^29.6.1",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
